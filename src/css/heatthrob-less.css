@@ -1,0 +1,57 @@
+/*
+    Special editon of Heatthrob for "Search it!"
+    and future Microsoft Edge Extensions.
+
+    v1.0.0
+ */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+img{-moz-user-select:none;-ms-user-select:none;-webkit-user-select:none;user-select:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+hr{border-bottom:none!important;border:1px solid #dedfe7;margin:5px 0}
+a{color:#2572EB;text-decoration:none}
+a:hover{color:#5f37be;-moz-transition:all .5s;-o-transition:all .5s;-webkit-transition:all .5s;transition:all .5s}
+a:visited{color:#7241e4}
+body{font-family:'Segoe UI',Arial,Helvetica,Tahoma,Geneva,Verdana,sans-serif;overflow-x:hidden}
+p{margin:10px 0;line-height:23px;text-align:left;  font-size:20px; font-weight:300; color:#665}
+h1{font-size:54px;font-weight:100;line-height:1.13; color:#2572EB}
+h2{font-size:45px;font-weight:200;line-height:1.18; margin-bottom:30px}
+h3{font-size:35px;font-weight:400;line-height:1.35}
+h4{font-size:25px;font-weight:600;line-height:1.35}
+h5{font-size:20px;font-weight:300;line-height:1.35}
+h6{font-size:18px;font-weight:400;line-height:1.65}
+strong{font-weight:800}
+button,input[type=button],input[type=reset],input[type=submit],button[type=submit]{background:linear-gradient(#3684fc,#2572EB);color:#eee;margin:0;min-height:32px;min-width:90px;padding:4px 8px;border:2px solid #2572EB;font-weight:600;line-height:1.3;cursor:pointer;margin-right:5px}
+button:hover,input[type=button]:hover,input[type=reset]:hover,input[type=submit]:hover,button[type=submit]:hover{background:#5f37be;border-color:#5f37be}
+button:disabled,input[type=button]:disabled,input[type=reset]:disabled,input[type=submit]:disabled,button[type=submit]:disabled{background:GrayText;border-color:GrayText;-moz-transition:all .3s;-o-transition:all .3s;-webkit-transition:all .3s;transition:all .3s}
+textarea,input[type=text],input[type=password],input[type=date],input[type=datetime],input[type=datetime-local],input[type=email],input[type=number],input[type=tel],input[type=url],input[type=search]{border:2px solid #ccc;background:#f9f9f9;margin:4px 0;width:50%;min-width:100px;max-width:calc(100% - 20px);min-height:25px;padding:0 8px;font-size:14px;font-weight:400;line-height:1.3;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}
+textarea{padding:5px 8px}
+textarea:hover,input[type=text]:hover,input[type=password]:hover,input[type=email]:hover,input[type=number]:hover,input[type=tel]:hover,input[type=url]:hover,input[type=search]:hover,textarea:hover,.win-textarea:hover{background:#fff;border-color:#3684fc}
+textarea:focus,input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,input[type=number]:focus,input[type=tel]:focus,input[type=url]:focus,input[type=search]:focus,textarea:focus,.win-textarea:focus{border-color:#2572EB;background-color:#fff}
+textarea:disabled,input[type=text]:disabled,input[type=password]:disabled,input[type=email]:disabled,input[type=number]:disabled,input[type=tel]:disabled,input[type=url]:disabled,input[type=search]:disabled,textarea:disabled,.win-textarea:disabled{background-color:rgba(202,202,202,0.4);border-color:rgba(0,0,0,0.15);color:rgba(0,0,0,0.4)}
+input[type=radio]{width:23px;height:10px;margin-left:-10px;margin-top:3px}
+input[type=checkbox]{width:20px;height:20px;margin-right:5px;vertical-align:middle;margin-left:-2px}
+table{width:100%;margin-top:10px}
+table tr{border-bottom:1px solid #2572EB}
+table tr:first-of-type{background:#eee}
+table tr td{padding:8px 8px 15px;font-size:14px}
+table tr td:last-of-type{padding-right:0!important}
+table tr:hover{background:#eee;-moz-transition:all .5s;-o-transition:all .5s;-webkit-transition:all .5s;transition:all .5s}
+table tr:first-of-type{border-top:none!important;font-weight:600}
+select{min-width:80px;min-height:25px;border-width:2px;border-style:solid;margin:6px 0;outline:0;font-size:11pt;font-weight:400;line-height:1.3636;border-color:rgba(0,0,0,0.27);background-color:rgba(255,255,255,0.8);color:#000}
+select::-ms-value{padding:4px 8px;margin:0}
+select::-ms-expand{border:0;padding-left:6px;padding-right:6px}
+::selection,select:focus::-ms-value{background-color:Highlight;color:HighlightText}
+input:disabled::-ms-clear,input:disabled::-ms-reveal,select:disabled::-ms-expand{background-color:ButtonFace;border-color:GrayText;color:GrayText}
+select,option{letter-spacing:.02em}
+option{padding:3px}
+table.nostyle tr{border:none}
+table.nostyle tr td{padding:5px}
+table.nostyle tr:first-of-type{border-top:none!important;font-weight:500}
+.wrapper{width:470px; margin: 0 auto; padding-bottom:40px}
+.wrapper ul{list-style:initial; margin-left:35px}
+.wrapper ul li ul{list-style:square}

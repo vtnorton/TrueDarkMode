@@ -1,0 +1,35 @@
+﻿/*
+    Black 100%: #000000;
+    Black  80%: #242424;
+    Black  60%: #383838;
+    Black  40%: #4C4C4C;
+    White 100%: #FFFFFF;
+    White  60%: #767676;
+    White  40%: #D6D6D5;
+*/
+body {background-color: #383838 !important}
+a{color:#3684fc !important;}
+h1, h2, h3, h4, h5, h6{color: #fff !important; border-bottom-color: #4C4C4C !important}
+table{background-color: #242424 !important; border-right-color:#767676 !important; border-top-color: #767676 !important; border-bottom-color: #767676 !important; }
+#mw-page-base{background-image: none !important; background-color:transparent !important}
+.mw-body{background-color: #000 !important; color:#fff !important; border: 1px solid #4C4C4C !important;}
+div.vectorTabs,
+div.vectorTabs ul{background-image: none !important;margin-left: -0.5px !important;}
+div.vectorTabs ul li{background-image: none !important; background-color: #242424 !important; border-left: 1px solid #4C4C4C !important }
+div.vectorTabs ul li:last-child{border-right: 1px solid #4c4c4c !important}
+div.vectorTabs span{background-image: none !important;}
+div.vectorTabs li.selected{background-image: none !important; background-color: #000 !important}
+#toc, .toc, .mw-warning, .toccolours,
+.infobox_v2{background: #242424 !important; border-color: #4C4C4C !important; color:#fff !important}
+.navbox, .navbox-subgroup,
+.infobox_v2 th {background: #383838 !important;}
+div#mw-panel div.portal h3,
+div#footer ul li,
+#pt-anonuserpage{color: #D6D6D5 !important}
+div#mw-panel div.portal{background-image: none !important; border-bottom: 1px solid #767676 !important}
+table.wikitable{background: #242424 !important; color: #fff !important; }
+table.wikitable > tr > th, table.wikitable > * > tr > th{background: #383838 !important}
+table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td{border-color: #767676 !important}
+code, div.thumbinner{background: #242424 !important; border-color: #767676 !important }
+html .thumbimage{background: #fff !important; border-color: #767676 !important }
+code{color: #fff !important}

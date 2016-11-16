@@ -1,0 +1,31 @@
+﻿/*
+    Black 100%: #000000;
+    Black  80%: #242424;
+    Black  60%: #383838;
+    Black  40%: #4C4C4C;
+    White 100%: #FFFFFF;
+    White  60%: #767676;
+    White  40%: #D6D6D5;
+*/
+body { background-image: none !important; background-color: #000 !important; }
+.block-compose .input-container, .message-in { background-color: #000 !important; }
+#startup, #initial_startup, .message-system-body, .drawer,
+.message-system-e2e, .location { background-color: #383838 !important; }
+.message-out, .block-compose, .search-container, .chat, .pane-intro,
+.pane-header, .well { background-color: #242424 !important; }
+.pane-list-body, .pane-chat { background-color: #4C4C4C !important; }
+.message-text, .media-caption, .document-body, .chatlist .is-unread .chat-meta, .chatlist .unread .chat-meta,
+body, .chat-title, .location-main, .header-title, .intro-title { color: #FFFFFF !important; }
+.message-meta, .chat-time-title, .chat-meta, .header-secondary, .chat-status, .message-system-e2e,
+.drawer-section-title, .empty-text, .intro-text, .hint, .message-system-body { color: #D6D6D5 !important; }
+.intro-image { border-radius: 900px !important; }
+.chatlist .chat:hover, .chatlist .location:hover, .chatlist .chat.hover,
+.chatlist .hover.location { background-color: #383838 !important; }
+.chatlist .chat-body, .chatlist .header-body { border-top: 1px solid #4C4C4C !important; }
+.chatlist .chat.active::after, .chatlist .active.location::after,
+.block-compose .input-container { border-color: #767676 !important; }
+.drawer-header .pane-header { background-color: #00bfa5 !important; }
+.menu-horizontal > .menu-item, .menu-horizontal > span > .menu-item{background-color: #E5E5E5 !important}
+.block-compose .btn-emoji, .block-compose .icon-ptt,
+.icon-status-dblcheck{background-color: #E5E5E5 !important; border-radius:20px !important; padding:1px !important}
+/*.icon, .icon-s, .icon-l, .icon-xl { background: linear-gradient( rgba(200, 0, 0, 0.5), rgba(0, 200, 0, 0.5) ) !important; }*/

@@ -1,0 +1,45 @@
+/*
+    Black 100%: #000000;
+    Black  80%: #242424;
+    Black  60%: #383838;
+    Black  40%: #4C4C4C;
+    White 100%: #FFFFFF;
+    White  60%: #767676;
+    White  40%: #D6D6D5;
+*/
+body{background: #242424 !important; color: #fff !important;}
+.ribbon .ribbon-menu{background: #242424; border-color: #767676}
+.masthead.masthead-theme-standard{background: #4c4c4c; border-color: #767676 !important; }
+h1,h2,h3,h4,h5,h6,
+.story.theme-main > .story-header .headline,
+.story.theme-main > .story-header .dateline,
+.newsletter-signup .headline, input, label, select, textarea,
+.related-combined-coverage .headline,
+.related-combined-coverage .section-heading,
+.election-navigation li a, #blogs-masthead .election-navigation li a,
+a:link, a:visited{color: #fff}
+.video-section .video-playlist .story .headline,
+.video-section .section-header .user-action,
+.story.theme-main > .story-header .byline .byline-author,
+.story.theme-main .media .caption,.newsletter-signup .summary,
+.story.theme-main .interactive .interactive-headline,
+.newsletter-signup .footer li a, .page-footer nav ul li a,
+.whats-next .whats-next-collection .tagline,
+.whats-next .whats-next-collection .story.theme-summary .summary,
+.span-ab-bottom-region .story.theme-summary .summary{color: #d6d6d6}
+.story.theme-main .interactive .interactive-leadin, 
+.story.theme-main .story-addendum,
+.whats-next .whats-next-collection .story.theme-summary .headline,
+.story.theme-main .interactive .interactive-summary{color: #e5e5e5}
+.story.theme-main .interactive, .newsletter-signup,
+.newsletter-signup .footer,
+.related-combined-coverage .story-menu li,
+.related-combined-coverage .section-header,
+.whats-next section, .site-index .split-6-layout .column,
+.whats-next section.whats-next section,
+.site-index::before,
+.newsletter-signup .newsletter-form .input-control .field-container,
+.story.theme-main .story-meta-footer{border-color: #767676}
+.newsletter-signup .newsletter-form .email-input{background: #000}
+.save-sharetool::before{background-color: #767676}
+.related-combined-coverage .story-menu-options{background: none}
