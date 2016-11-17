@@ -6,10 +6,6 @@
   },
   "content_scripts": [
     {
-      "matches": [ "http://www.vtnorton.com/*" ],
-      "css": [ "/css/www/vtnorton.com.css" ]
-    },
-    {
       "matches": [ "https://web.whatsapp.com/*" ],
       "css": [ "/css/www/web.whatsapp.com.css" ],
       "js":  ["/js/www/web.whatsapp.com.js"]
@@ -38,5 +34,5 @@
     "contextMenus",
     "tabs"
   ],
-  "version": "1.0.0 (test 097d5k)"
+  "version": "1.0.0 (beta)"
 }
