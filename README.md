@@ -1,3 +1,4 @@
+
 # TrueDarkMode
 
 ### To download this extension go to vtnorton.com/truedarkmode, there you can find the full changelog and more information.
@@ -29,14 +30,20 @@ If you find any problem, please report it!
 Since this extension is made for Microsoft Edge, please use this tons of shades to make the website darker:
 
 Black 100%: #000000;
+
 Black  80%: #242424;
+
 Black  60%: #383838;
+
 Black  40%: #4C4C4C;
 
 
 White 100%: #FFFFFF;
+
 White  80%: #D5D5D5;
+
 White  60%: #767676;
+
 White  40%: #D6D6D5;
 
 Use the #000000 background on the content place, where the user will read some text. Other places just use #383838. For the text that is under tthe #000000 background, use #ffffff.
