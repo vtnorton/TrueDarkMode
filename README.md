@@ -33,6 +33,7 @@ Black  80%: #242424;
 Black  60%: #383838;
 Black  40%: #4C4C4C;
 
+
 White 100%: #FFFFFF;
 White  80%: #D5D5D5;
 White  60%: #767676;
