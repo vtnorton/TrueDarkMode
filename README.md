@@ -1,15 +1,12 @@
-
 # TrueDarkMode
 
-### To download this extension, go to vtnorton.com/truedarkmode, there you can find the full changelog and more information.
-
 ## About the extension
-It doesn’t matter of your Windows is in dark mode or in the light mode. The websites you visit aren't, so this Microsoft Edge extension is about to change it. When enabled, this extension will put your favorite web site in the dark mode! So don't forget to put Windows and Edge in Dark Mode
+It doesn’t matter of your Windows is in dark mode or in the light mode. The websites you visit aren't, so this Microsoft Edge extension is about to change it. When enabled, this extension will put your favorite web site in the dark mode! So don't forget to put Windows and Edge in Dark Mode.
 
-### To download this extension, go to vtnorton.com/truedarkmode, there you can find the full changelog and more information.
+![ScreenShot](http://vtnorton.com/images/extention/Wiki.jpg)
 
 ## Install
-This extension isn't available at the Windows Store (yet), but I'm working on this, so you may consider this as a beta! 
+This extension isn't available at the Windows Store (yet), but I'm working on this! 
 
 To install this extension you have to enable the "Dev Mode" of Microsoft Edge, to do that, go to about:flags and select "Enable extension developer features", with this enable, go to the three dot menu and select Extension. Click on the Load Extension button and select the folder you saved the download. 
 
@@ -40,11 +37,12 @@ Black  40%: #4C4C4C;
 
 White 100%: #FFFFFF;
 
+White  90%: #D6D6D5;
+
 White  80%: #D5D5D5;
 
 White  60%: #767676;
 
-White  40%: #D6D6D5;
 
 Use the #000000 background on the content place, where the user will read some text. Other places just use #383838. For the text that is under the #000000 background, use #ffffff.
 
