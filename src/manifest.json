@@ -13,6 +13,14 @@
     {
       "matches": [ "https://*.wikipedia.org/*" ],
       "css": [ "/css/www/wikipedia.org.css" ]
+    },
+    {
+      "matches": [ "https://*.buzzfeed.com/*" ],
+      "css": [ "/css/www/buzzfeed.com.css" ]
+    },
+    {
+      "matches": [ "https://*.nytimes.com/*" ],
+      "css": [ "/css/www/nytimes.com.css" ]
     }
   ],
   "default_locale": "en",

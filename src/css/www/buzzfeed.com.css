@@ -14,9 +14,8 @@ body {background-color: #000 !important;  color: #fff !important; }
 .page-nav__nav .page-nav__link{color: #D6D6D5 !important;}
 #buzz_sub_buzz .buzz_superlist_item_text > p{color: #fff !important;}
 .page-footer .footer-menu__item, .user-bio, .byline__title, .dateline-wrapper .dl__col, 
-#buzz_sub_buzz.suplist_article .buzz_superlist_item_image p, #buzz_sub_buzz.suplist_long .buzz_superlist_item_image p, #buzz_sub_buzz.suplist_article .buzz_superlist_item_image p, #buzz_sub_buzz.suplist_article .buzz_superlist_item_video p, #buzz_sub_buzz.suplist_article .buzz_superlist_item_embed p, 
-#buzz_sub_buzz.suplist_breaking .buzz_superlist_item_image p{color: #D6D6D5 !important;}
+#buzz_sub_buzz.suplist_article .buzz_superlist_item_image p, #buzz_sub_buzz.suplist_long .buzz_superlist_item_image p, #buzz_sub_buzz.suplist_article .buzz_superlist_item_image p, #buzz_sub_buzz.suplist_article .buzz_superlist_item_video p, #buzz_sub_buzz.suplist_article .buzz_superlist_item_embed p, #buzz_sub_buzz.suplist_breaking .buzz_superlist_item_image p{color: #D6D6D5 !important;}
 .post-datetimes span.buzz-datetime{color: #D6D6D5 !important; }
-.vertical-label{color: #000}
+.vertical-label{color: #000 !important}
 .wyntk-module .wyntk-module__headline, .wyntk-module{border-color: #767676 !important; }
 .page-header__logo-secondary.news{background-color: transparent !important;}
