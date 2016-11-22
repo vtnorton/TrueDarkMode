@@ -4,7 +4,7 @@
 ### To download this extension, go to vtnorton.com/truedarkmode, there you can find the full changelog and more information.
 
 ## About the extension
-It doesn’t matter of you Windows is on dark mode or on the light mode. The websites you visit isn't, so this Microsoft Edge extension is about to change it. When enabled, this extension will put your favorite web site on the dark mode! So don't forget to put Windows and Edge on Dark Mode
+It doesn’t matter of your Windows is in dark mode or in the light mode. The websites you visit aren't, so this Microsoft Edge extension is about to change it. When enabled, this extension will put your favorite web site in the dark mode! So don't forget to put Windows and Edge in Dark Mode
 
 ### To download this extension, go to vtnorton.com/truedarkmode, there you can find the full changelog and more information.
 
