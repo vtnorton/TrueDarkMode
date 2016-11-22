@@ -3,8 +3,6 @@
 ## About the extension
 It doesn’t matter of your Windows is in dark mode or in the light mode. The websites you visit aren't, so this Microsoft Edge extension is about to change it. When enabled, this extension will put your favorite web site in the dark mode! So don't forget to put Windows and Edge in Dark Mode.
 
-![ScreenShot](http://vtnorton.com/images/extention/Wiki.jpg)
-
 ## Install
 This extension isn't available at the Windows Store (yet), but I'm working on this! 
 
