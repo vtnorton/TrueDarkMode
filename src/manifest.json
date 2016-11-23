@@ -21,6 +21,10 @@
     {
       "matches": [ "https://*.nytimes.com/*" ],
       "css": [ "/css/www/nytimes.com.css" ]
+    },
+    {
+      "matches": [ "https://*.github.com/*" ],
+      "css": [ "/css/www/github.com.css" ]
     }
   ],
   "default_locale": "en",
