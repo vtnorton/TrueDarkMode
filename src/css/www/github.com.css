@@ -8,14 +8,30 @@
     White  40%: #D6D6D5;
 */
 a {color: #4078c0 !important;}
-.counter, .site-header, body{background: #242424 !important;}
+.counter, .header, .site-header, body{background: #242424 !important;}
 .repository-meta{color: #d5d5d5 !important;}
 .repohead.experiment-repo-nav{background: #383838 !important;}
 .readme .markdown-body, .readme .plain{background: #000 !important; border-color:#767676 !important; color: #fff !important}
-.reponav-item, .site-header-nav .nav-item{color: #fff !important;}
-.counter, .reponav-item:hover, .site-header-nav .nav-item:hover{color: #d5d5d5 !important;}
+.select-menu-item .css-truncate-target, .user-mention, .team-mention, .reponav-item, .site-header-nav .nav-item{color: #fff !important;}
+.text-gray, .counter, .reponav-item:hover, .site-header-nav .nav-item:hover{color: #d5d5d5 !important;}
 .reponav-item.selected{background-color: #242424 !important; border-color: #d26911 #767676 transparent !important;}
 .pagehead{border-bottom-color: #767676 !important;}
-.numbers-summary .octicon, .repohead h1 .octicon,.text-emphasized{color: #fff !important;}
+.btn-primary, .label, .protip, .numbers-summary .octicon, .repohead h1 .octicon,.text-emphasized{color: #fff !important;}
 .overall-summary{border-color:#767676 !important;}
 .site-footer{color: #fff !important; border-top-color: #767676 !important;}
+.btn:disabled, .btn:disabled:hover, .btn.disabled, .btn.disabled:hover,
+.boxed-group > h3, .boxed-group .heading{border-color: #767676 !important; background: #383838 !important; color: #d5d5d5}
+.table-list-header,.commit-tease{background: #383838 !important; border-color: #767676 !important;color: #d5d5d5 !important}
+.Box-body-row--highlight.navigation-focus, table.files tr.navigation-focus td{background: #383838; background-color: #383838 !important}
+table.files td.icon, table.files td.message, table.files td.age{color: #f5f5f5}
+table.files td{border-top-color: #767676 !important;}
+.Box-body,table.files{background: #000 !important;}
+.table-list-header,.subnav-item, .file-wrap{border-color: #767676 !important;}
+.subnav-item:hover{background: #767676 !important;}
+.table-list-header-toggle .btn-link,.muted-link{color: #b9b9b9 !important;}
+.Box-body-row{border-top-color: #767676 !important;}
+.border-left{border-left: none !important;}
+.border-bottom{border-bottom:none !important;}
+.border-right{border-right:none !important}
+.table-list-header-toggle .select-menu-button:hover, .table-list-header-toggle .select-menu-button.selected, .table-list-header-toggle .select-menu-button.selected:hover{color: #f5f5f5}
+.table-list-header-toggle .select-menu-button, .table-list-header-toggle .select-menu-button.selected, .table-list-header-toggle .select-menu-button.selected{color: #d5d5d5}
