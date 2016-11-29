@@ -8,6 +8,8 @@ This extension isn't available at the Windows Store (yet), but I'm working on th
 
 To install this extension you have to enable the "Dev Mode" of Microsoft Edge, to do that, go to about:flags and select "Enable extension developer features", with this enable, go to the three dot menu and select Extension. Click on the Load Extension button and select the folder you saved the download. 
 
+Note: add the folder 'src' when you load the extension.
+
 Please, note that, you will not be alerted if a new version come out, unless you follow me on Twitter (@vt_norton) and subscribe to the mail list for new information about this Edge extension! 
 
 ## Contribute
