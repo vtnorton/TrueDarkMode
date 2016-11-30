@@ -24,7 +24,8 @@
     },
     {
       "matches": [ "https://*.github.com/*" ],
-      "css": [ "/css/www/github.com.css" ]
+      "css": [ "/css/www/github.com.css" ],
+      "js": [ "/js/www/github.com.js" ]
     }
   ],
   "default_locale": "en",

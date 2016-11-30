@@ -11,10 +11,16 @@
 /* Background: #242424
    Border-color: #767676
    Color: #f5f5f5 */
+.filter-bar,.btn, .thread-subscription-status,
+.menu-item:hover,.menu-heading,
+.drag-and-drop,.boxed-group-inner{background: #242424 !important; border-color:#767676!important; color: #f5f5f5 !important}
 
 /* Background: #383838
    Border-color: #767676
    Color: #d5d5d5 */
+.social-count,
+.exploregrid-item,.pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus, .pagination em:hover, .pagination em:focus,
+.btn:hover, .btn:active, .btn.zeroclipboard-is-hover, .btn.zeroclipboard-is-active,
 .Box-body-row--highlight.navigation-focus, table.files tr.navigation-focus td,
 .btn:disabled, .btn:disabled:hover, .btn.disabled, .btn.disabled:hover,
 .timeline-comment-header,.boxed-group > h3, .boxed-group .heading,
@@ -24,55 +30,74 @@
 /* Background: #000
    Border-color: #767676
    Color: #FFFF */
-.blankslate, .form-control, .form-select,
+.orghead,.simple-box,.pagination a, .pagination span, .pagination em,
+.tabnav-tab.selected,.dropdown-menu,.menu,
+.blankslate, .form-control, .form-select,.menu-item.selected,
 .timeline-comment, .readme .markdown-body, .readme .plain{background: #000 !important; border-color:#767676 !important; color: #fff !important}
 
 /* Border-color: #767676 */
-.signed-out-comment, .select-menu-text-filter input,
+.orghead .edit-org,.network .network-graph-container,
+.signed-out-comment, .select-menu-text-filter input,.boxed-group-inner,
 .select-menu-text-filter input, .table-list-header,.subnav-item, .file-wrap,
 .timeline-comment-label, .overall-summary{border-color:#767676 !important;}
 
-.border-top,.Box-body-row, .site-footer, table.files td, .discussion-sidebar-item + .discussion-sidebar-item{border-top-color: #767676 !important}
+.border-top,.showcase-page-repo-list,.Box-body-row, .site-footer, table.files td, .discussion-sidebar-item + .discussion-sidebar-item{border-top-color: #767676 !important}
 .border-right, .header-search-scope{border-right-color: #767676!important}
 .border-left{border-left-color: #767676 !important;}
-.border-bottom, .gh-header-meta, :first-child:last-child.select-menu-text-filter, .pagehead, .select-menu-item, .select-menu-header, .select-menu-divider{border-bottom-color: #767676 !important;}
+.border-bottom,.select-menu-item,.header,.repo-list-item,.showcase-page-header,.pagehead, .Subhead,.menu-item, .tabnav, .gh-header-meta, :first-child:last-child.select-menu-text-filter, .pagehead, .select-menu-item, .select-menu-header, .select-menu-divider{border-bottom-color: #767676 !important;}
 
 /* Color: #D5D5D5 */
-.blob-num:hover, .breadcrumb strong.final-path, .gh-header-meta, 
+.dropdown-header,.dropdown-item,.form-checkbox .note,.note,.lead,
+.repo-filterer .repo-filter,.octofication .notice-dismiss:hover,
+.thread-subscription-status,.link-gray-dark,.news .alert .simple .title,.octofication .message p,
+.blob-num:hover, .breadcrumb strong.final-path, .gh-header-meta, .select-menu-item.selected,
 .discussion-sidebar-item, .repository-meta,.text-gray, .text-small,
-.select-menu-header .select-menu-title, .select-menu-divider,
+.select-menu-header .select-menu-title, .select-menu-divider,.select-menu-item-text .description,
 .text-gray, .counter, .reponav-item:hover, .site-header-nav .nav-item:hover,
 .header-search-scope, .table-list-header-toggle .select-menu-button, 
-.table-list-header-toggle .select-menu-button.selected
+.table-list-header-toggle .select-menu-button.selected,.muted-link
 {color: #d5d5d5 !important;}
 
 /* Color: #F5F5F5 */
+.org-name,
+.mini-repo-list-item .repo-icon,.text-gray,
+.tabnav-tab,.toolbar-item,.toolbar-item .menu-target,
 body, table.files td.icon, table.files td.message, table.files td.age, 
 .discussion-sidebar-heading, .table-list-header-toggle .select-menu-button:hover, 
 .table-list-header-toggle .select-menu-button.selected, 
 .table-list-header-toggle .select-menu-button.selected:hover{color: #f5f5f5 !important}
 
 /* Color: #FFFFFF */
-.select-menu-item-text,.site-footer,
+.repo-filterer .repo-filter:hover,.octofication .notice-dismiss,
+.select-menu-item-text,.site-footer,.exploregrid-item-title,
 .blob-num, .btn-primary, .label, .protip, .numbers-summary .octicon, 
-.repohead h1 .octicon,.text-emphasized,
+.repohead h1 .octicon,.text-emphasized,.subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus,
 .select-menu-item .css-truncate-target, .user-mention, .team-mention, 
 .reponav-item, .site-header-nav .nav-item{color: #fff !important;}
 
 /* Background: #000000 */
+.orghead .edit-org:hover,
 .protip code, .Box-body,table.files{background: #000 !important;}
 
 /* Background: #242424 */
+.pagehead-tabs-item.selected,
 .discussion-timeline-actions, .counter, .header, .site-header, 
 .select-menu-item, .select-menu-header, .select-menu-divider,
 body{background: #242424 !important;}
 
 /* Background: #383838 */
-.signed-out-comment, .repohead.experiment-repo-nav{background: #383838 !important;}
+.shade-gray,
+.new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav,
+.signed-out-comment, .repohead.experiment-repo-nav{background: #383838 !important;background-color: #383838 !important}
 
-a {color: #4078c0 !important}
+a, .social-count:hover {color: #4078c0 !important}
+a.dropdown-divider:hover{color: #fff !important}
 .reponav-item.selected{background-color: #242424 !important; border-color: #d26911 #767676 transparent !important;}
 .subnav-item:hover{background: #767676 !important;}
 .table-list-header-toggle .btn-link,.muted-link{color: #b9b9b9 !important;}
 .select-menu-item.navigation-focus, .select-menu-item.navigation-focus.selected, .select-menu-item.navigation-focus.select-menu-action, .select-menu-item.navigation-focus .description-inline{color:#4078c0 !important; background-color: #282828 !important}
 .discussion-timeline-actions, .timeline-comment-wrapper{border-top:none !important; border-bottom: none !important}
+.dropdown-divider{background-color: #767676 !important}
+.pagehead-tabs-item.selected{border-left-color: #767676 !important; border-right-color: #767676 !important}
+.subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus,
+.pagination .current, .pagination .current:hover{background-color: #4078c0 !important; border-color: #4078c0 !important}
