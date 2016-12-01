@@ -12,13 +12,14 @@
    Border-color: #767676
    Color: #f5f5f5 */
 .filter-bar,.btn, .thread-subscription-status,
-.menu-item:hover,.menu-heading,
+.menu-item:hover,.menu-heading,.commit-tease-contributors,
 .drag-and-drop,.boxed-group-inner{background: #242424 !important; border-color:#767676!important; color: #f5f5f5 !important}
 
 /* Background: #383838
    Border-color: #767676
    Color: #d5d5d5 */
-.social-count,
+.Box-header,
+kbd,table.capped-list th,table.capped-list tr:nth-child(2n),.access-form-wrapper,.social-count,.user-profile-nav,.user-profile-sticky-bar::after,
 .exploregrid-item,.pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus, .pagination em:hover, .pagination em:focus,
 .btn:hover, .btn:active, .btn.zeroclipboard-is-hover, .btn.zeroclipboard-is-active,
 .Box-body-row--highlight.navigation-focus, table.files tr.navigation-focus td,
@@ -30,24 +31,24 @@
 /* Background: #000
    Border-color: #767676
    Color: #FFFF */
-.orghead,.simple-box,.pagination a, .pagination span, .pagination em,
-.tabnav-tab.selected,.dropdown-menu,.menu,
+.Box,.blob-code-inner,.auth-form-body,.orghead,.simple-box,.pagination a, .pagination span, .pagination em,
+.tabnav-tab.selected,.dropdown-menu,.menu,.pinned-repo-item,
 .blankslate, .form-control, .form-select,.menu-item.selected,
 .timeline-comment, .readme .markdown-body, .readme .plain{background: #000 !important; border-color:#767676 !important; color: #fff !important}
 
 /* Border-color: #767676 */
-.orghead .edit-org,.network .network-graph-container,
-.signed-out-comment, .select-menu-text-filter input,.boxed-group-inner,
-.select-menu-text-filter input, .table-list-header,.subnav-item, .file-wrap,
-.timeline-comment-label, .overall-summary{border-color:#767676 !important;}
+.file,.orghead .edit-org,.network .network-graph-container,.border-gray-dark,.border,
+.signed-out-comment, .select-menu-text-filter input,.boxed-group-inner,.dropdown-menu,
+.capped-card,.select-menu-text-filter input, .table-list-header,.subnav-item, .file-wrap,
+.blob-num,.timeline-comment-label, .overall-summary{border-color:#767676 !important;}
 
-.border-top,.showcase-page-repo-list,.Box-body-row, .site-footer, table.files td, .discussion-sidebar-item + .discussion-sidebar-item{border-top-color: #767676 !important}
-.border-right, .header-search-scope{border-right-color: #767676!important}
-.border-left{border-left-color: #767676 !important;}
-.border-bottom,.select-menu-item,.header,.repo-list-item,.showcase-page-header,.pagehead, .Subhead,.menu-item, .tabnav, .gh-header-meta, :first-child:last-child.select-menu-text-filter, .pagehead, .select-menu-item, .select-menu-header, .select-menu-divider{border-bottom-color: #767676 !important;}
+.border-top,.traffic-graph-stats,.session-authentication .auth-form-body,.comment-reactions.has-reactions,.showcase-page-repo-list,.Box-body-row, .site-footer, table.files td, .discussion-sidebar-item + .discussion-sidebar-item{border-top-color: #767676 !important}
+.border-right,:first-child.pulse-graph, .header-search-scope{border-right-color: #767676!important}
+.border-left,.summary-stats li{border-left-color: #767676 !important;}
+.border-bottom,.codesearch-aside .filter-list,.pulse-graph,table.capped-list td,.select-menu-item,.header,.repo-list-item,.showcase-page-header,.pagehead, .Subhead,.menu-item, .tabnav, .gh-header-meta, :first-child:last-child.select-menu-text-filter, .pagehead, .select-menu-item, .select-menu-header, .select-menu-divider{border-bottom-color: #767676 !important;}
 
 /* Color: #D5D5D5 */
-.dropdown-header,.dropdown-item,.form-checkbox .note,.note,.lead,
+.graphs .dir,.summary-stats li,.session-authentication .auth-form-header,.dropdown-header,.dropdown-item,.form-checkbox .note,.note,.lead,
 .repo-filterer .repo-filter,.octofication .notice-dismiss:hover,
 .thread-subscription-status,.link-gray-dark,.news .alert .simple .title,.octofication .message p,
 .blob-num:hover, .breadcrumb strong.final-path, .gh-header-meta, .select-menu-item.selected,
@@ -55,12 +56,12 @@
 .select-menu-header .select-menu-title, .select-menu-divider,.select-menu-item-text .description,
 .text-gray, .counter, .reponav-item:hover, .site-header-nav .nav-item:hover,
 .header-search-scope, .table-list-header-toggle .select-menu-button, 
-.table-list-header-toggle .select-menu-button.selected,.muted-link
+.table-list-header-toggle .select-menu-button.selected,.muted-link,.pl-smi, .pl-s .pl-s1
 {color: #d5d5d5 !important;}
 
 /* Color: #F5F5F5 */
-.org-name,
-.mini-repo-list-item .repo-icon,.text-gray,
+.org-name,.user-profile-bio,.vcard-detail .octicon,table.capped-list .octicon,
+.diffstat-summary,.mini-repo-list-item .repo-icon,.text-gray,.vcard-username,
 .tabnav-tab,.toolbar-item,.toolbar-item .menu-target,
 body, table.files td.icon, table.files td.message, table.files td.age, 
 .discussion-sidebar-heading, .table-list-header-toggle .select-menu-button:hover, 
@@ -68,6 +69,7 @@ body, table.files td.icon, table.files td.message, table.files td.age,
 .table-list-header-toggle .select-menu-button.selected:hover{color: #f5f5f5 !important}
 
 /* Color: #FFFFFF */
+.text-gray-light,.summary-stats li .num,.diffstat-summary strong,
 .repo-filterer .repo-filter:hover,.octofication .notice-dismiss,
 .select-menu-item-text,.site-footer,.exploregrid-item-title,
 .blob-num, .btn-primary, .label, .protip, .numbers-summary .octicon, 
@@ -76,17 +78,17 @@ body, table.files td.icon, table.files td.message, table.files td.age,
 .reponav-item, .site-header-nav .nav-item{color: #fff !important;}
 
 /* Background: #000000 */
-.orghead .edit-org:hover,
+.orghead .edit-org:hover,.filter-item,
 .protip code, .Box-body,table.files{background: #000 !important;}
 
 /* Background: #242424 */
-.pagehead-tabs-item.selected,
-.discussion-timeline-actions, .counter, .header, .site-header, 
+.conversation-list-heading .inner,.pagehead-tabs-item.selected,.bg-white,.filter-item:hover,.tint-box,
+.discussion-timeline-actions, .counter, .header, .site-header,.capped-card-content, 
 .select-menu-item, .select-menu-header, .select-menu-divider,
-body{background: #242424 !important;}
+body{background: #242424 !important;background-color: #242424 !important}
 
 /* Background: #383838 */
-.shade-gray,
+.bg-gray,.shade-gray,.comment-reactions .user-has-reacted,
 .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav,
 .signed-out-comment, .repohead.experiment-repo-nav{background: #383838 !important;background-color: #383838 !important}
 
@@ -97,7 +99,8 @@ a.dropdown-divider:hover{color: #fff !important}
 .table-list-header-toggle .btn-link,.muted-link{color: #b9b9b9 !important;}
 .select-menu-item.navigation-focus, .select-menu-item.navigation-focus.selected, .select-menu-item.navigation-focus.select-menu-action, .select-menu-item.navigation-focus .description-inline{color:#4078c0 !important; background-color: #282828 !important}
 .discussion-timeline-actions, .timeline-comment-wrapper{border-top:none !important; border-bottom: none !important}
-.dropdown-divider{background-color: #767676 !important}
+.profile-timeline.discussion-timeline .profile-timeline-month-heading::after,.dropdown-divider{background-color: #767676 !important}
 .pagehead-tabs-item.selected{border-left-color: #767676 !important; border-right-color: #767676 !important}
 .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus,
 .pagination .current, .pagination .current:hover{background-color: #4078c0 !important; border-color: #4078c0 !important}
+circle.day, .day-name{fill:#d5d5d5 !important}

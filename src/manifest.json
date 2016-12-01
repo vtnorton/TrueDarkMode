@@ -47,5 +47,6 @@
     "contextMenus",
     "tabs"
   ],
-  "version": "1.0.0 (beta)"
+  "version": "1.0.0x (beta)",
+  "web_accessible_resources" : ["/js/www2/github.com.js"]
 }
