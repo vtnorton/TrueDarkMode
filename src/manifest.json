@@ -19,6 +19,10 @@
       "css": [ "/css/www/buzzfeed.com.css" ]
     },
     {
+      "matches": [ "https://*.youtube.com/*" ],
+      "css": [ "/css/www/youtube.com.css" ]
+    },
+    {
       "matches": [ "https://*.nytimes.com/*" ],
       "css": [ "/css/www/nytimes.com.css" ]
     },

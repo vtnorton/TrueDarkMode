@@ -31,13 +31,13 @@ kbd,table.capped-list th,table.capped-list tr:nth-child(2n),.access-form-wrapper
 /* Background: #000
    Border-color: #767676
    Color: #FFFF */
-.Box,.blob-code-inner,.auth-form-body,.orghead,.simple-box,.pagination a, .pagination span, .pagination em,
+.suggester, .Box,.blob-code-inner,.auth-form-body,.orghead,.simple-box,.pagination a, .pagination span, .pagination em,
 .tabnav-tab.selected,.dropdown-menu,.menu,.pinned-repo-item,
 .blankslate, .form-control, .form-select,.menu-item.selected,
 .timeline-comment, .readme .markdown-body, .readme .plain{background: #000 !important; border-color:#767676 !important; color: #fff !important}
 
 /* Border-color: #767676 */
-.file,.orghead .edit-org,.network .network-graph-container,.border-gray-dark,.border,
+.suggester li,.file,.orghead .edit-org,.network .network-graph-container,.border-gray-dark,.border,
 .signed-out-comment, .select-menu-text-filter input,.boxed-group-inner,.dropdown-menu,
 .capped-card,.select-menu-text-filter input, .table-list-header,.subnav-item, .file-wrap,
 .blob-num,.timeline-comment-label, .overall-summary{border-color:#767676 !important;}
@@ -60,7 +60,7 @@ kbd,table.capped-list th,table.capped-list tr:nth-child(2n),.access-form-wrapper
 {color: #d5d5d5 !important;}
 
 /* Color: #F5F5F5 */
-.org-name,.user-profile-bio,.vcard-detail .octicon,table.capped-list .octicon,
+.suggester li,.org-name,.user-profile-bio,.vcard-detail .octicon,table.capped-list .octicon,
 .diffstat-summary,.mini-repo-list-item .repo-icon,.text-gray,.vcard-username,
 .tabnav-tab,.toolbar-item,.toolbar-item .menu-target,
 body, table.files td.icon, table.files td.message, table.files td.age, 
